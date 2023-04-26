@@ -27,21 +27,31 @@ html {
     padding: 0.5em 1em;
   }
 
-  /* .navbar a:after {
-    content: '';
-    width: 0;
-    height: 5px;
-    background-color: #fff;
-    margin: auto;
-    display: block;
+  .Mobile-site-title {
+    display: none;
   }
 
-  .navbar a:hover::after {
-    width: 100%;
-    transition: width 0.2s linear;
-    margin-top: 5px;
-  } */
+  /* Mobile offcanvas Nav */
+  
+.offcanvas {
+  background-color: #2f1900;
+}
 
+#offcanvasExample {
+  width: 100%;
+}
+
+.offcanvas-title {
+  color: #fff;
+  text-align: left;
+  padding-left: .4em;
+  font-weight: bold;
+}
+
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .hero {
     position: relative;
@@ -282,6 +292,12 @@ h3 {
         text-align: center;
     }
 
+    .Mobile-site-title {
+      display: block;
+      color: #fff;
+      font-weight: 700;
+    }
+
     .hero {
       height: 75vh;
   }
@@ -294,9 +310,25 @@ h3 {
       font-size: 1rem;
     }
 
-    /* .menu-section {
-      overflow: hidden;
-    } */
+    .offcanvas {
+      background-color: #2f1900;
+    }
+
+    .offcanvas-title {
+      color: #fff;
+    }
+    
+    .btn-close:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+      padding: 1rem;
+      font-size: 3rem;
+    }
+    
+    
     
 }
 /* For tablets below (767px) */
