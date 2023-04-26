@@ -316,6 +316,7 @@ h3 {
 
     .offcanvas-title {
       color: #fff;
+      
     }
     
     .btn-close:focus {
@@ -339,4 +340,10 @@ h3 {
     
 }
 
-/* Modal mobile menu */
+
+/* phones less than 280px */
+@media screen and (max-width:300px) {
+  .Mobile-site-title {
+    display: none;
+  }
+}
