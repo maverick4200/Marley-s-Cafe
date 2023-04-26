@@ -118,6 +118,7 @@ html {
 padding-left: 1rem;
 padding-right: 1rem;
 overflow: hidden;
+background-color: ivory;
 }
 
 h3 {
@@ -222,7 +223,7 @@ h3 {
     font-weight:400;
     right:0;
     padding-left:8px;
-    background-color:#fff;
+    background-color: ivory;
     z-index:0;
   }
   .item h4 {
