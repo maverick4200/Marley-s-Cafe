@@ -1,7 +1,6 @@
 
 body {
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
-    /* overflow: hidden; */
 }
 
 html {
@@ -79,8 +78,9 @@ html {
 /* MENU */
 /* Start of Menu CSS */
 .menu-section {
-padding-left: 2px;
-padding-right: 2px;
+padding-left: 1rem;
+padding-right: 1rem;
+overflow: hidden;
 }
 
 h3 {
@@ -254,8 +254,16 @@ header {
       height: 75vh;
   }
     
-    /* .panini-text {
+    .panini-text {
       font-size: 1.5rem;
+    }
+
+    .h3 {
+      font-size: 1rem;
+    }
+
+    /* .menu-section {
+      overflow: hidden;
     } */
     
 }
