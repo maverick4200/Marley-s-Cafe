@@ -27,11 +27,19 @@ html {
     padding: 0.5em 1em;
   }
 
-  .Mobile-site-title {
+/* Link hover effect */
+
+.navbar-nav .nav-link:hover {
+  color: #F9D08A;
+}
+
+
+/* Mobile offcanvas Nav */
+
+.Mobile-site-title {
     display: none;
   }
 
-  /* Mobile offcanvas Nav */
   
 .offcanvas {
   background-color: #2f1900;
@@ -185,18 +193,21 @@ background-color: ivory;
   border-color: #000; }
 
 .btn {
-  border: none;
+  border: 3px solid #F9D08A;
   border-radius: 0;
   font-size: 12px;
   letter-spacing: .2rem;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  background-color: #F9D08A;
+}
   .btn.btn-primary {
     background: #F9D08A;
     color: black;
     padding: 15px 20px; }
   .btn:hover {
-    color: #fff; }
+    color: black; }
   .btn:active, .btn:focus {
+    background-color: #e0bb7c;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -343,6 +354,7 @@ h3 {
     position:absolute;
     top:22px;
   }
+
   /* Dots in IE */
   @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
     .dots {
