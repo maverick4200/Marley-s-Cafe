@@ -462,6 +462,9 @@ h3 {
       font-size: 3rem;
     }
     
+    .FoodItem {
+      width: 100%;
+    }
     
     
 }
@@ -478,5 +481,13 @@ h3 {
 @media screen and (max-width:300px) {
   .Mobile-site-title {
     display: none;
+
+    
+  }
+}
+
+@media screen and (max-width:575px){
+  .FoodItem {
+    width: 50%;
   }
 }
