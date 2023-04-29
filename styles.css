@@ -215,7 +215,7 @@ background-color: ivory;
   .btn:hover {
     color: black; }
   .btn:active, .btn:focus {
-    background-color: #e0bb7c;
+    background-color: #F9D08A;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
