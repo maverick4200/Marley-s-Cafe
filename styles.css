@@ -518,7 +518,7 @@ h3 {
 /* mac */
 
 @media screen and (max-width: 1280px) {
-  .hero .hero-content { font-size: 1px;}
+  .hero .hero-content { font-size: 1em;}
   .navbar-brand img {
     width: 60px;
   }
