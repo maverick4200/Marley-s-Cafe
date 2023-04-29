@@ -56,8 +56,8 @@ html {
 .offcanvas-title {
   color: #fff;
   text-align: left;
-  padding-left: .4em;
   font-weight: bold;
+  width: 100%;
 }
 
 .btn-close:focus {
@@ -66,7 +66,7 @@ html {
 }
 
 .btn-close {
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .hero {
@@ -154,8 +154,8 @@ html {
 /* MENU */
 /* Start of Menu CSS */
 .menu-section {
-padding-left: 1rem;
-padding-right: 1rem;
+/* padding-left: 1rem;
+padding-right: 1rem; */
 overflow: hidden;
 background-color: ivory;
 }
@@ -424,6 +424,9 @@ h3 {
   .about-us-section { font-size: 1em;}
   .location-title {font-size: 1.2em;}
   .story-top {font-size: 2.5em; width: 100%;}
+  .mobile-title {
+    display: none;
+  }
 
   /* .Our-story { font-size: 1.5em;}
 
