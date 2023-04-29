@@ -17,7 +17,7 @@ html {
 .navbar-nav {
     align-items: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 20px;
     /* font-family: 'Franklin Gothic Medium';
     font-weight: 300; */
   }
@@ -514,3 +514,15 @@ h3 {
     width: 50%;
   }
 }
+
+/* mac */
+
+@media screen and (max-width: 1280px) {
+  .hero .hero-content { font-size: 1px;}
+  .navbar-brand img {
+    width: 60px;
+  }
+  .hero .hero-content { padding-top: 5rem;}
+
+}
+  
