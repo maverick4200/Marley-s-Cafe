@@ -648,7 +648,10 @@
         <div class="col-md-6">
           <div class="form h-100">
             <h5>Send us a message</h5>
-            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+            <form class="mb-5" method="post" data-netlify="true" onSubmit="submit" id="contactForm" name="contactForm"
+             data-netlify-honeypot="bot-field"
+            >
+            <input class="d-none" name="bot-field">
               <div class="row">
                 <div class="col-md-6 form-group mb-5" data-aos="slide-right">
                   <label for="" class="col-form-label">Name *</label>
