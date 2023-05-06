@@ -32,21 +32,21 @@
             </div>
             <div class="offcanvas-body ">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link" href="#home">Home</a>
+                <li class="nav-item" >
+                  <a class="nav-link" href="#home" >Home</a>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
+                <li class="nav-item" >
                   <a class="nav-link" href="#menu">Menu</a>
                 </li>
                 </a>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
+                <li class="nav-item" >
                   <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
+                <li class="nav-item" >
                   <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
               </ul>
-            </div>
+            </div> 
           </div>
           </div>
         </div>
@@ -57,9 +57,9 @@
                 <source src="coffee-beans.mp4" type="video/mp4">
                 </source>
             </video>
-            <div class="hero-content h-100 container-custom position-relative">
+            <div class="hero-content h-100 container-custom position-relative" data-aos="slide-up">
               <div class="d-flex h-100 align-items-center hero-content-width mt-5">
-                <div class="text-white" data-aos="slide-up">
+                <div class="text-white">
                   <h2 class="fw-bold mb-4">Welcome to Marely's Cafe!</h2>
                   <h2 class="fw-bold mb-4">Treat yourself to a quality meal prepared with locally sourced ingredients.</h2>
                   <p class="lead mb-4">6323 W Belmont Ave, Chicago Il</p>
@@ -79,7 +79,7 @@
               <p class="Our-story">Marely's Cafe is the creation of a dedicated husband and wife who share a passion for creating a welcoming, family-friendly atmosphere. Located in the heart of Belmont Cragin, this cozy cafe places a strong emphasis on healthy eating, offering a mouth-watering menu featuring only the finest natural, organic, and locally sourced seasonal produce.</p>
               </div>
               <div class="container pb-5">
-                <div class="text-center" data-aos="slide-up">
+                <div class="text-center">
                   <p class="location-title"><strong>Hours of Operation</strong></p>
                   <h4>Mon-Tues: 10am-6pm</h4>
                   <h4>Wed-Sun: 10am-4pm</h4>
@@ -89,15 +89,15 @@
         <section class="menu-section" id="menu">
           <div class="container-lg">
               <!-- <MENU-->
-              <div class="text-center" data-aos="slide-up">
+              <div class="text-center">
               <h3>Our Menu</h3>
               </div>
-              <div class="text-center" data-aos="slide-up">
+              <div class="text-center">
                 <a id="4"></a>
                 <br>
                 <h3>SAVORY BREAKFAST</h3>
               </div>
-              <div class="row" data-aos="slide-up">
+              <div class="row">
                 <!-- Column 1 -->
                 <div class="col-sm-6">
                   <div class="item">
@@ -619,18 +619,18 @@
 </section>
 <!-- Gallery -->
 <section class="gallery-section pt-5 pb-5" id="gallery">
-  <div class="container-sm" data-aos="">
+  <div class="container-sm">
     <div class="row g-2 text-center">
       <div class="text-center">
         <h3>Gallery</h3>
         <h5><strong>Check out our amazing Crepes!</strong></h5>
       </div>
-      <div class="col-sm-6 col-md-4" data-aos="slide-right"><img src="CrepeOne.jpg" class="img-fluid rounded"></div>
-      <div class="col-6 col-md-4" data-aos="slide-down"><img src="FoodItem.jpg" class="img-fluid rounded h-100"></div>
-      <div class="col-6 col-md-4" data-aos="slide-left"><img src="CrepeThree.jpg" class="img-fluid rounded"></div>
-      <div class="col-6 col-md-4" data-aos="slide-right"><img src="CrepeFour.jpg" class="img-fluid rounded"></div>
-      <div class="FoodItem col-6 col-md-4" data-aos="slide-up"><img src="CrepeTwo.jpg" class="img-fluid rounded"></div>
-      <div class="col-12 col-md-4" data-aos="slide-left"><img src="Omelette.jpg" class="img-fluid rounded h-100"></div>
+      <div class="col-sm-6 col-md-4"><img src="CrepeOne.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+      <div class="col-6 col-md-4"><img src="FoodItem.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
+      <div class="col-6 col-md-4"><img src="CrepeThree.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+      <div class="col-6 col-md-4"><img src="CrepeFour.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+      <div class="FoodItem col-6 col-md-4"><img src="CrepeTwo.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+      <div class="col-12 col-md-4"><img src="Omelette.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
     </div>
   </div>
 </section>
@@ -643,10 +643,10 @@
     </div>
   </div>
    <div class="content">
-    <div class="container" data-aos="fade-in">
+    <div class="container">
       <div class="row align-items-stretch no-gutters contact-wrap">
         <div class="col-md-6">
-          <div class="form h-100">
+          <div class="form h-100" data-aos="slide-right">
             <h5>Send us a message</h5>
             <form class="mb-5" method="post" data-netlify="true" onSubmit="submit" id="contactForm" name="contactForm"
              data-netlify-honeypot="bot-field"
@@ -670,7 +670,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12 form-group" data-aos="slide-right">
+                <div class="col-md-12 form-group" data-aos="slide-up">
                   <input type="submit" value="Send Message" class="btn btn-warning rounded-0 py-2 px-4">
                   <span class="submitting"></span>
                 </div>
@@ -706,11 +706,26 @@
     <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marelyscafechicago/" style="text-decoration: none;"><i class="bi bi-instagram" style="color:white;"></i></a>
   </div>
 </footer>
+<!-- Offcanvas close JS -->
+<script>
+  const navLinks = document.querySelectorAll('.nav-link');
+  const closeButton = document.querySelector('.btn-close');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => {
+        closeButton.click();
+      }, 550);
+    });
+  });
+</script>
+
+
+
 <!-- Scroll on animation JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        offset:200,
         duration: 1000,
         once: true
       });
