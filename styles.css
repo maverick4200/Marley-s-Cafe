@@ -488,6 +488,10 @@ h3 {
     .FoodItem {
       width: 100%;
     }
+
+    .Our-story {
+      text-align: left;
+    }
     
     
 }
@@ -496,6 +500,7 @@ h3 {
     .navbar-nav {
         text-align: center;
     }
+
     
 }
 
@@ -512,7 +517,8 @@ h3 {
 @media screen and (max-width:575px){
   .FoodItem {
     width: 50%;
-  }
+  }  
+
 }
 
 /* mac */
