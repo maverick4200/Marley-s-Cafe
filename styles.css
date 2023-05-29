@@ -27,6 +27,11 @@ html {
     padding: 0.5em 1em;
   }
 
+  .navbar .navbar-toggler {
+    color: #2f1900 !important;
+    border-color: #2f1900 !important;
+    }
+
 /* Link hover effect */
 
 .navbar-nav .nav-link:hover {
