@@ -1,736 +1,739 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="TabImage2.png">
-    <link rel="preload" as="video" type="video/mp4" href="coffee-beans.mp4" crossorigin="anonymous">
-    <title>Marely's Cafe</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="TabImage2.png" alt="Tabimage"><strong>Marely's Cafe</strong>
-          </a>
-          <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Start of offcanvas / mobile side menu-->
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <div class="container-sm">
-              </div>
-              <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body ">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item" >
-                  <a class="nav-link" href="#home" >Home</a>
-                </li>
-                <li class="nav-item" >
-                  <a class="nav-link" href="#menu">Menu</a>
-                </li>
-                </a>
-                <li class="nav-item" >
-                  <a class="nav-link" href="#gallery">Gallery</a>
-                </li>
-                <li class="nav-item" >
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class= "nav-btn" href="https://www.grubhub.com/restaurant/marelys-cafe-chicago-6323-w-belmont-ave-chicago/6139512?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&rwg_token=ADQ7psQe0PREl_GF2PgS8_wKGMZCb85hntrYGAT69MqdYLyZlb_Z7d8bfKsAxcAEbOgh0eABJlpWz0LO-J9KSvNwnoBlD9TbEg%3D%3D" target="_blank" rel="noopener noreferrer"><button class="btn btn-warning  text-nowrap text-sm-truncate text-md-break text-lg-wrap">Order Online</button></a>
-                </li>
-              </ul>
-            </div> 
-          </div>
-          </div>
-        </div>
-    </nav>
-        </header>
-        <section class="hero mt-5" id="home">
-            <video playsinline="playsinline" autoplay="autopaly" muted="muted" muted="muted" loop="loop" class="hero-video">
-                <source src="coffee-beans.mp4" type="video/mp4">
-                </source>
-            </video>
-            <div class="hero-content h-100 container-custom position-relative" data-aos="slide-up">
-              <div class="d-flex h-100 align-items-center hero-content-width">
-                <div class="text-white">
-                  <h2 class="fw-bold mb-4">Welcome to Marely's Cafe!</h2>
-                  <h2 class="fw-bold mb-4">Treat yourself to a quality meal prepared with locally sourced ingredients.</h2>
-                  <p class="lead mb-4">6323 W Belmont Ave, Chicago IL</p>
-                  <p>773-887-3656</p>
-                  <a href="#menu" class="hero-scroll-btn">View Our Menu!<i class="bi bi-arrow-down-short"></i></a>
-                </div>
-              </div>
-            </div>
-        </section>
-        <section class="about-us-section pt-2"> 
-              <div class="container-fluid text-center" data-aos="fade-in">
-                <h3>Our Story</h3>
-                <h2 class="story-top">WE ARE A LOCAL LATINO-OWNED CAFE</h2>
-                <p class="location-title"><strong>Located in Belmont Cragin, Chicago</strong></p>
-              </div>
-              <div class="container-sm text-center">
-              <p class="Our-story">Marely's Cafe is the creation of a dedicated husband and wife who share a passion for creating a welcoming, family-friendly atmosphere. Located in the heart of Belmont Cragin, this cozy cafe places a strong emphasis on healthy eating, offering a mouth-watering menu featuring only the finest natural, organic, and locally sourced seasonal produce.</p>
-              </div>
-              <div class="container pb-5">
-                <div class="text-center">
-                  <p class="location-title"><strong>Hours of Operation</strong></p>
-                  <h4>Mon-Tues: 10am-6pm</h4>
-                  <h4>Wed-Sat: 10am-4pm</h4>
-                  <h4><strong><u>Sundays Closed</u></strong></h4>
-                  </div>
-              </div>
-        </section>
-        <section class="menu-section" id="menu">
-          <div class="container-lg">
-              <!-- <MENU-->
-              <div class="text-center">
-              <h3>Our Menu</h3>
-              </div>
-              <div class="text-center">
-                <a id="4"></a>
-                <br>
-                <h3>SAVORY BREAKFAST</h3>
-              </div>
-              <div class="row">
-                <!-- Column 1 -->
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Cowboy's Skillet*</h4>
-                    <span></span>
-                    <span>$11.00</span>
-                    <p>Chorizo, potatoes, jalapeños, onions, corn, chihuahua cheese, topped with two eggs any style.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Breakfast Sandwich*</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                    <p>Two Fried eggs, applewood smoked bacon, red onion, fresh sliced avocado, sriracha aioli.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Classic Breakfast*</h4>
-                    <span></span>
-                    <span>$11.00</span>
-                    <p>three eggs any style, choice of meat, breakfast poatoes, toast.</p>
-                  </div>
-                </div>
-                <!-- Column 2 -->
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Meat Lover's Omelette*</h4>
-                    <span></span>
-                    <span>11.00</span>
-                    <p>All house meats, cheddar cheese, toast.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Farmer's Omelette*</h4>
-                    <span></span>
-                    <span>$11.00</span>
-                    <p>egg whites, seasonal local vegetables, topped with avocado, tomato salad.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Sweet Breakfast -->
-              <div class="text-center">
-                <a id="6"></a><h3>Sweet Breakfast</h3>
-              </div>
-              <div class="row">
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Nutella Crepe</h4>
-                    <span></span>
-                    <span>$7.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Tres Leches French Toast</h4>
-                    <span></span>
-                    <span>$9.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Berries Bliss Pancake</h4>
-                    <span></span>
-                    <span>$9.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Bread Pudding Crepe</h4>
-                    <span></span>
-                    <span>$7.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Churro Stuffed Crepe</h4>
-                    <span></span>
-                    <span>$7.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  <div class="item">
-                    <h4>Banana Pancakes</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="item">
-                      <h4>Berries mascapone Crepe</h4>
-                      <span></span>
-                      <span>$7.00</span>
-                    </div>
-                  </div>
-              </div>
-              <!-- End of Sweet Breakfast -->
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.5/dist/sweetalert2.min.css">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="icon" href="TabImage2.png">
+   <link rel="preload" as="video" type="video/mp4" href="coffee-beans.mp4" crossorigin="anonymous">
+   <title>Marely's Cafe</title>
+ </head>
+ <body>
+   <header>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+       <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+           <img src="TabImage2.png" alt="Tabimage"><strong>Marely's Cafe</strong>
+         </a>
+         <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="navbarNav">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Start of offcanvas / mobile side menu-->
+         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+           <div class="offcanvas-header">
+             <div class="container-sm">
+             </div>
+             <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class="offcanvas-body ">
+             <ul class="navbar-nav ms-auto">
+               <li class="nav-item" >
+                 <a class="nav-link" href="#home" >Home</a>
+               </li>
+               <li class="nav-item" >
+                 <a class="nav-link" href="#menu">Menu</a>
+               </li>
+               </a>
+               <li class="nav-item" >
+                 <a class="nav-link" href="#gallery">Gallery</a>
+               </li>
+               <li class="nav-item" >
+                 <a class="nav-link" href="#contact">Contact</a>
+               </li>
+               <li class="nav-item">
+                 <a class= "nav-btn" href="https://www.grubhub.com/restaurant/marelys-cafe-chicago-6323-w-belmont-ave-chicago/6139512?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&rwg_token=ADQ7psQe0PREl_GF2PgS8_wKGMZCb85hntrYGAT69MqdYLyZlb_Z7d8bfKsAxcAEbOgh0eABJlpWz0LO-J9KSvNwnoBlD9TbEg%3D%3D" target="_blank" rel="noopener noreferrer"><button class="btn btn-warning">Order Online</button></a>
+               </li>
+             </ul>
+           </div>
+         </div>
+         </div>
+       </div>
+   </nav>
+       </header>
+       <section class="hero mt-5" id="home">
+           <video playsinline="playsinline" autoplay="autopaly" muted="muted" muted="muted" loop="loop" class="hero-video">
+               <source src="coffee-beans.mp4" type="video/mp4">
+               </source>
+           </video>
+           <div class="hero-content h-100 container-custom position-relative" data-aos="slide-up">
+             <div class="d-flex h-100 d-flex align-items-center hero-content-width">
+               <div class="text-white">
+                 <h2 class="fw-bold mb-4">Welcome to Marely's Cafe!</h2>
+                 <h2 class="fw-bold mb-4 heroCTA">Treat yourself to a quality meal prepared with locally sourced ingredients.</h2>
+                 <p class="lead mb-4">6323 W Belmont Ave, Chicago IL</p>
+                 <p>773-887-3656</p>
+                 <a href="#menu" class="hero-scroll-btn">View Our Menu!<i class="bi bi-arrow-down-short"></i></a>
+               </div>
+             </div>
+           </div>
+       </section>
+       <section class="about-us-section pt-2">
+             <div class="container-fluid text-center" data-aos="fade-in">
+               <h3>Our Story</h3>
+               <h2 class="story-top">WE ARE A LOCAL LATINO-OWNED CAFE</h2>
+               <p class="location-title"><strong>Located in Belmont Cragin, Chicago</strong></p>
+             </div>
+             <div class="container-sm text-center">
+             <p class="Our-story">Marely's Cafe is the creation of a dedicated husband and wife who share a passion for creating a welcoming, family-friendly atmosphere. Located in the heart of Belmont Cragin, this cozy cafe places a strong emphasis on healthy eating, offering a mouth-watering menu featuring only the finest natural, organic, and locally sourced seasonal produce.</p>
+             </div>
+             <div class="container pb-5">
+               <div class="text-center">
+                 <p class="location-title"><strong>Hours of Operation</strong></p>
+                 <h4>Mon-Tues: 10am-6pm</h4>
+                 <h4>Wed-Sat: 10am-4pm</h4>
+                 <h4><strong><u>Sundays Closed</u></strong></h4>
+                 </div>
+             </div>
+       </section>
+       <section class="menu-section" id="menu">
+         <div class="container-lg">
+             <!-- <MENU-->
+             <div class="text-center">
+             <h3>Our Menu</h3>
+             </div>
+             <div class="text-center">
+               <a id="4"></a>
+               <br>
+               <h3>SAVORY BREAKFAST</h3>
+             </div>
+             <div class="row">
+               <!-- Column 1 -->
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Cowboy's Skillet*</h4>
+                   <span></span>
+                   <span>$11.00</span>
+                   <p>Chorizo, potatoes, jalapeños, onions, corn, chihuahua cheese, topped with two eggs any style.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Breakfast Sandwich*</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                   <p>Two Fried eggs, applewood smoked bacon, red onion, fresh sliced avocado, sriracha aioli.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Classic Breakfast*</h4>
+                   <span></span>
+                   <span>$11.00</span>
+                   <p>three eggs any style, choice of meat, breakfast poatoes, toast.</p>
+                 </div>
+               </div>
+               <!-- Column 2 -->
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Meat Lover's Omelette*</h4>
+                   <span></span>
+                   <span>11.00</span>
+                   <p>All house meats, cheddar cheese, toast.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Farmer's Omelette*</h4>
+                   <span></span>
+                   <span>$11.00</span>
+                   <p>egg whites, seasonal local vegetables, topped with avocado, tomato salad.</p>
+                 </div>
+               </div>
+             </div>
+             <!-- Sweet Breakfast -->
+             <div class="text-center">
+               <a id="6"></a><h3>Sweet Breakfast</h3>
+             </div>
+             <div class="row">
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Nutella Crepe</h4>
+                   <span></span>
+                   <span>$7.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Tres Leches French Toast</h4>
+                   <span></span>
+                   <span>$9.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Berries Bliss Pancake</h4>
+                   <span></span>
+                   <span>$9.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Bread Pudding Crepe</h4>
+                   <span></span>
+                   <span>$7.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Churro Stuffed Crepe</h4>
+                   <span></span>
+                   <span>$7.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                 <div class="item">
+                   <h4>Banana Pancakes</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                   <div class="item">
+                     <h4>Berries mascapone Crepe</h4>
+                     <span></span>
+                     <span>$7.00</span>
+                   </div>
+                 </div>
+             </div>
+             <!-- End of Sweet Breakfast -->
 
-              <!-- Start of Paninis -->
-              <div class="text-center">
-                <a id="4"></a><h3 class="panini-text">PANINIS SANDWICHES</h3><br>
-                <h5>Add any side to the sanwiches for $2</h5>
-              </div>
-              <div class="row">
-                <!-- Column 1 -->
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Smoked Brisket</h4>
-                    <span></span>
-                    <span>$11.00</span>
-                    <p>Texas Toast, Smoked Brisket, mozzarella cheese, barbeque sauce.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Tex-Mex Rodeo*</h4>
-                    <span></span>
-                    <span>$11.00</span>
-                    <p>Texas Toast, smoked brisket, bacon, pulled pork, jalapeño slaw, southwest sauce.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Southwest Grilled Chicken</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                    <p>Blackened chicken breast, sharp cheddar, southwest sauce on a french baguette.</p>
-                  </div>
-                </div>
-                <!-- Column 2 -->
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Smoked Pulled Pork</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                    <p>Smoked Pulled Pork on a French Baguette, southwest coleslaw, barbeque sauce.</p>
-                  </div>
-                  <div class="item">
-                    <h4>Marely's Grilled Cheese</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                    <p>Wheat toast, deli sliced turkey ham, avocado, cheddar cheese.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Paninis -->
-              <!-- Start of Salads -->
-              <div class="text-center">
-                <h3>Salads</h3>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Taco Salad Bowl</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Cob Salad Bowl</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Vegan Salad Bowl</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Salads -->
-              <!-- Start of Wraps -->
-              <div class="text-center">
-                <h3>Wraps</h3>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Italian Deli Meats Wrap</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Southwest Salad Wrap</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Mediterranean Chicken Wrap</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Wraps -->
-              <!-- Start of Snacks -->
-              <!-- column 1 -->
-              <div class="text-center">
-                <h3>Snacks</h3>
-                <h5>Tasty Snacks</h5>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Salsa Trio</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Hummus Platter</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Caprese Salad</h4>
-                    <span></span>
-                    <span>$9.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Column 2 -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>B.L.T Bruschetta</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Sliders Trio</h4>
-                    <span></span>
-                    <span>$10.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Pretzel Bites</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Column 3 -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Mini Nachos</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Fruit Platter</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Avocado Toast Platter</h4>
-                    <span></span>
-                    <span>$8.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Snacks -->
-              <!-- Start of Sides -->
-              <!-- column 1 -->
-              <div class="text-center">
-                <h3>Sides</h3>
-                <h5>Add a side to your order</h5>
-              </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>House Salad</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Corn Tortilla Chips</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Fresh Fruit</h4>
-                    <span></span>
-                    <span>$5.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Column 2 -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Cole Slaw</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Potato Chips</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Asian Style Vegetable Slaw</h4>
-                    <span></span>
-                    <span>$5.00</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Column 3 -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="item">
-                    <h4>Soup of the Day</h4>
-                    <span></span>
-                    <span>$3.00</span>
-                  </div>
-                </div>
-            </div>
-              <!-- End of Sides -->
-              <!-- Start of Coffee -->
-              <div class="text-center">
-                <h3>Coffee</h3>
-                <h5><strong>Try our Lattes only $3 any flavor every Thursday!</strong></h5>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Horchatta Nitro Cold Brew</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Matcha Latte</h4>
-                    <span></span>
-                    <span>$5.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Cappuchino</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Mocha Latte</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Caramel Macchiato</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Tres Leches Latte</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Regular Coffee</h4>
-                    <span></span>
-                    <span>3.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Decaf Coffee</h4>
-                    <span></span>
-                    <span>$3.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Vanilla Latte</h4>
-                    <span></span>
-                    <span>$5.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Cold Brew</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class=>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Bread pudding Latte</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-                </div>
-              </div>
-              <!-- End of Coffee -->
-              <!-- Start of Smoothies, Juices, Teas -->
-            <div class="container">
-              <div class="text-center">
-                <h3>Smoothies, Juices and Tea</h3>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Black Tea</h4>
-                    <span></span>
-                    <span>$3.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Lemon Ginger Tea</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Green Tea</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Fresh Pressed Juice</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Fresh Fruit Smoothie</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Green Juice</h4>
-                    <span></span>
-                    <span>$6.00</span>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Imported Sodas</h4>
-                    <span></span>
-                    <span>3.00</span>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="item">
-                    <h4>Sparkling Waters</h4>
-                    <span></span>
-                    <span>$4.00</span>
-                  </div>
-                </div>
-              </div>
-           
 
-              <!-- End of Smoothies, Juices, Teas -->
+             <!-- Start of Paninis -->
+             <div class="text-center">
+               <a id="4"></a><h3 class="panini-text">PANINIS SANDWICHES</h3><br>
+               <h5>Add any side to the sanwiches for $2</h5>
+             </div>
+             <div class="row">
+               <!-- Column 1 -->
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Smoked Brisket</h4>
+                   <span></span>
+                   <span>$11.00</span>
+                   <p>Texas Toast, Smoked Brisket, mozzarella cheese, barbeque sauce.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Tex-Mex Rodeo*</h4>
+                   <span></span>
+                   <span>$11.00</span>
+                   <p>Texas Toast, smoked brisket, bacon, pulled pork, jalapeño slaw, southwest sauce.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Southwest Grilled Chicken</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                   <p>Blackened chicken breast, sharp cheddar, southwest sauce on a french baguette.</p>
+                 </div>
+               </div>
+               <!-- Column 2 -->
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Smoked Pulled Pork</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                   <p>Smoked Pulled Pork on a French Baguette, southwest coleslaw, barbeque sauce.</p>
+                 </div>
+                 <div class="item">
+                   <h4>Marely's Grilled Cheese</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                   <p>Wheat toast, deli sliced turkey ham, avocado, cheddar cheese.</p>
+                 </div>
+               </div>
+             </div>
+             <!-- End of Paninis -->
+             <!-- Start of Salads -->
+             <div class="text-center">
+               <h3>Salads</h3>
+             </div>
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Taco Salad Bowl</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Cob Salad Bowl</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Vegan Salad Bowl</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- End of Salads -->
+             <!-- Start of Wraps -->
+             <div class="text-center">
+               <h3>Wraps</h3>
+             </div>
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Italian Deli Meats Wrap</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Southwest Salad Wrap</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Mediterranean Chicken Wrap</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- End of Wraps -->
+             <!-- Start of Snacks -->
+             <!-- column 1 -->
+             <div class="text-center">
+               <h3>Snacks</h3>
+               <h5>Tasty Snacks</h5>
+             </div>
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Salsa Trio</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Hummus Platter</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Caprese Salad</h4>
+                   <span></span>
+                   <span>$9.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- Column 2 -->
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>B.L.T Bruschetta</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Sliders Trio</h4>
+                   <span></span>
+                   <span>$10.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Pretzel Bites</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- Column 3 -->
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Mini Nachos</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Fruit Platter</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Avocado Toast Platter</h4>
+                   <span></span>
+                   <span>$8.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- End of Snacks -->
+             <!-- Start of Sides -->
+             <!-- column 1 -->
+             <div class="text-center">
+               <h3>Sides</h3>
+               <h5>Add a side to your order</h5>
+             </div>
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>House Salad</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Corn Tortilla Chips</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Fresh Fruit</h4>
+                   <span></span>
+                   <span>$5.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- Column 2 -->
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Cole Slaw</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Potato Chips</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Asian Style Vegetable Slaw</h4>
+                   <span></span>
+                   <span>$5.00</span>
+                 </div>
+               </div>
+             </div>
+             <!-- Column 3 -->
+             <div class="row">
+               <div class="col-sm-4">
+                 <div class="item">
+                   <h4>Soup of the Day</h4>
+                   <span></span>
+                   <span>$3.00</span>
+                 </div>
+               </div>
+           </div>
+             <!-- End of Sides -->
+             <!-- Start of Coffee -->
+             <div class="text-center">
+               <h3>Coffee</h3>
+               <h5><strong>Try our Lattes only $3 any flavor every Thursday!</strong></h5>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Horchatta Nitro Cold Brew</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Matcha Latte</h4>
+                   <span></span>
+                   <span>$5.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Cappuchino</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Mocha Latte</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Caramel Macchiato</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Tres Leches Latte</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                   <p></p>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Regular Coffee</h4>
+                   <span></span>
+                   <span>3.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Decaf Coffee</h4>
+                   <span></span>
+                   <span>$3.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Vanilla Latte</h4>
+                   <span></span>
+                   <span>$5.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Cold Brew</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class=>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Bread pudding Latte</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+               </div>
+             </div>
+             <!-- End of Coffee -->
+             <!-- Start of Smoothies, Juices, Teas -->
+           <div class="container">
+             <div class="text-center">
+               <h3>Smoothies, Juices and Tea</h3>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Black Tea</h4>
+                   <span></span>
+                   <span>$3.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Lemon Ginger Tea</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Green Tea</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Fresh Pressed Juice</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Fresh Fruit Smoothie</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Green Juice</h4>
+                   <span></span>
+                   <span>$6.00</span>
+                   <p></p>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Imported Sodas</h4>
+                   <span></span>
+                   <span>3.00</span>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="item">
+                   <h4>Sparkling Waters</h4>
+                   <span></span>
+                   <span>$4.00</span>
+                 </div>
+               </div>
+             </div>
+         
 
-              <!-- DISCLAIMER! -->
-              <div class="row">
-                <div class="col-12">
-                <p><em>Ask your server about menu items that are cooked to order or served raw. Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness.</em></p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+             <!-- End of Smoothies, Juices, Teas -->
+
+
+             <!-- DISCLAIMER! -->
+             <div class="row">
+               <div class="col-12">
+               <p><em>Ask your server about menu items that are cooked to order or served raw. Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness.</em></p>
+               </div>
+             </div>
+           </div>
+           </div>
+         </div>
+       </div>
+     </div>
 </section>
 <!-- Gallery -->
 <section class="gallery-section pt-5 pb-5" id="gallery">
-  <div class="container-sm">
-    <div class="row g-2 text-center">
-      <div class="text-center">
-        <h3>Gallery</h3>
-        <h5><strong>Check out our amazing Crepes!</strong></h5>
-      </div>
-      <div class="col-sm-6 col-md-4"><img src="CrepeOne.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
-      <div class="col-6 col-md-4"><img src="FoodItem.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
-      <div class="col-6 col-md-4"><img src="CrepeThree.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
-      <div class="col-6 col-md-4"><img src="CrepeFour.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
-      <div class="FoodItem col-6 col-md-4"><img src="CrepeTwo.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
-      <div class="col-12 col-md-4"><img src="Omelette.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
-    </div>
-  </div>
+ <div class="container-sm">
+   <div class="row g-2 text-center">
+     <div class="text-center">
+       <h3>Gallery</h3>
+       <h5><strong>Check out our amazing Crepes!</strong></h5>
+     </div>
+     <div class="col-sm-6 col-md-4"><img src="CrepeOne.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+     <div class="col-6 col-md-4"><img src="FoodItem.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
+     <div class="col-6 col-md-4"><img src="CrepeThree.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+     <div class="col-6 col-md-4"><img src="CrepeFour.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+     <div class="FoodItem col-6 col-md-4"><img src="CrepeTwo.jpg" class="img-fluid rounded" data-aos="slide-up"></div>
+     <div class="col-12 col-md-4"><img src="Omelette.jpg" class="img-fluid rounded h-100" data-aos="slide-up"></div>
+   </div>
+ </div>
 </section>
 <!-- End of Gallery -->
-<section class="Contact-us-form" id="contact">
-  <div class="row g-2 text-center" data-aos="slide-up">
-    <div class="text-center pt-3">
-      <h3>Contact Us</h3>
-      <h4>Give us a call at: 773-887-3656</h4>
-    </div>
-  </div>
-   <div class="content">
-    <div class="container">
-      <div class="row align-items-stretch no-gutters contact-wrap">
-        <div class="col-md-6">
-          <div class="form h-100" data-aos="slide-right">
-            <h5>Send us a message</h5>
-            <form class="mb-5" method="post" data-netlify="true" onSubmit="submit" id="contactForm" name="contactForm"
-             data-netlify-honeypot="bot-field"
-            >
-            <input class="d-none" name="bot-field">
-              <div class="row">
-                <div class="col-md-6 form-group mb-5" data-aos="slide-right">
-                  <label for="" class="col-form-label">Name *</label>
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                </div>
-                <div class="col-md-6 form-group mb-5" data-aos="slide-left">
-                  <label for="" class="col-form-label">Email *</label>
-                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12 form-group mb-5" data-aos="slide-up">
-                  <label for="message" class="col-form-label">Message *</label>
-                  <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group" data-aos="slide-up">
-                  <input type="submit" value="Send Message" class="btn btn-warning rounded-0 py-2 px-4">
-                  <span class="submitting"></span>
-                </div>
-              </div>
-            </form>
-
-            <div id="form-message-warning mt-4"></div> 
-            <div id="form-message-success">
-              Your message was sent, thank you!
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6" data-aos="slide-left">
-          <div class="contact-info h-100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11871.556782093385!2d-87.7845332!3d41.9382323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcb1374413ecb%3A0xa35d53fa0eda245f!2sMarelys%20Cafe!5e0!3m2!1sen!2sus!4v1682723861872!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<section class="Contact-us-form" id="contact-form">
+ <div class="row g-2 text-center" data-aos="slide-up">
+   <div class="text-center pt-3">
+     <h3>Contact Us</h3>
+     <h4>Give us a call at: 773-887-3656</h4>
+   </div>
+ </div>
+  <div class="content">
+   <div class="container">
+     <div class="row align-items-stretch no-gutters contact-wrap">
+       <div class="col-md-6">
+         <div class="form h-100" data-aos="slide-right">
+           <h5>Send us a message</h5>
+           <form class="mb-5" method="post" data-netlify="true" onSubmit="submit" id="contactForm" name="contactForm" novalidate
+            data-netlify-honeypot="bot-field"
+           >
+           <input class="d-none" name="bot-field">
+             <div class="row">
+               <div class="col-md-6 form-group mb-5" data-aos="slide-right">
+                 <label for="inputSubject" class="col-form-label">Subject *</label>
+                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+               </div>
+               <div class="col-md-6 form-group mb-5" data-aos="slide-right">
+                 <label for="inputName" class="col-form-label">Full Name *</label>
+                 <input type="text" class="form-control" name="name" id="name" placeholder="Enter your full name" required>
+               </div>
+               <div class="col-md-6 form-group mb-5" data-aos="slide-left">
+                 <label for="inputEmail" class="col-form-label">Email *</label>
+                 <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+               </div>
+               <div class="col-md-6 form-group mb-5" data-aos="slide-right">
+                 <label for="inputPhoneNumber" class="col-form-label">Phone *</label>
+                 <input type="number" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="Enter your phone number" required>
+               </div>
+             </div>
+               <div class="col-md-12 form-group mb-5" data-aos="slide-up">
+                 <label for="inputMessage" class="col-form-label">Message *</label>
+                 <textarea type="text" class="form-control" type="text" name="message" id="message" cols="30" rows="4"  placeholder="Write your message" required></textarea>
+               </div>
+               <div class="col-md-12 form-group" data-aos="slide-up">
+                 <input type="submit" value="Send Message" class="btn btn-warning rounded-0 py-2 px-4">
+               </div>
+           </form>
+         </div>
+       </div>
+       <div class="col-md-6" data-aos="slide-left">
+         <div class="contact-info h-100">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11871.556782093385!2d-87.7845332!3d41.9382323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcb1374413ecb%3A0xa35d53fa0eda245f!2sMarelys%20Cafe!5e0!3m2!1sen!2sus!4v1682723861872!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
 </section>
 <footer class="py-5">
-  <div class="container text-light text-center">
-    <div class="container-sm">
-      <h4>Marely's Cafe</h4>
-    </div>
-    <h5><strong>6323 W Belmont Ave, Chicago IL, 60634</strong></h5>
-    <small class="text-white-50">&copy; Copyright by Marely's Cafe. All rights reserved.</small>
-    <br>
-    <small class="text-white-50">Site developed by JNM</small>
-  </div>
-  <div class="container-sm text-center">
-    <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marelyscafechicago/" style="text-decoration: none;"><i class="bi bi-instagram" style="color:white;"></i></a>
-  </div>
+ <div class="container text-light text-center">
+   <div class="container-sm">
+     <h4>Marely's Cafe</h4>
+   </div>
+   <h5><strong>6323 W Belmont Ave, Chicago IL, 60634</strong></h5>
+   <small class="text-white-50">&copy; Copyright by Marely's Cafe. All rights reserved.</small>
+   <br>
+   <small class="text-white-50">Site developed by JNM</small>
+ </div>
+ <div class="container-sm text-center">
+   <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marelyscafechicago/" style="text-decoration: none;"><i class="bi bi-instagram" style="color:white;"></i></a>
+ </div>
 </footer>
 <!-- Offcanvas close JS -->
 <script>
-  const navLinks = document.querySelectorAll('.nav-link');
-  const closeButton = document.querySelector('.btn-close');
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      setTimeout(() => {
-        closeButton.click();
-      }, 550);
-    });
-  });
+ const navLinks = document.querySelectorAll('.nav-link');
+ const closeButton = document.querySelector('.btn-close');
+ navLinks.forEach(link => {
+   link.addEventListener('click', () => {
+     setTimeout(() => {
+       closeButton.click();
+     }, 550);
+   });
+ });
 </script>
-<!-- Scroll on animation JS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-        once: true
-      });
-    </script>
-    <!-- BootstrapJS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+<!-- Javascript -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+       duration: 1000,
+       once: true
+     });
+   </script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.5/dist/sweetalert2.all.min.js"></script>
+   <script src="formAlert.js"></script>
+ </body>
 </html>
